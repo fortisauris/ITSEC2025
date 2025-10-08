@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "673e42ff995e7777",
+    "type": "split",
+    "children": [
+      {
+        "id": "a51c7a8b52c277a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e6a4fee6481bab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SESSION2_HESLA_LOGY_NETWORKING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SESSION2_HESLA_LOGY_NETWORKING"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a96079de92268c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "910b425e2de1fe83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0620ef17ebdd65cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "35980ecc52c2fa68",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a7c5d280df8bf093",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d9b7b65583ca219f",
+    "type": "split",
+    "children": [
+      {
+        "id": "193b1f105e9b47f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a258bc8817b8c0db",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SESSION1 PC_DIGNOSTIKA AND OPERATING SYSTEM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SESSION1 PC_DIGNOSTIKA AND OPERATING SYSTEM"
+            }
+          },
+          {
+            "id": "c27675f0ab3aa6b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SESSION1 PC_DIGNOSTIKA AND OPERATING SYSTEM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from SESSION1 PC_DIGNOSTIKA AND OPERATING SYSTEM"
+            }
+          },
+          {
+            "id": "a41c1bcce3184869",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "80b55d26a92b023a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SESSION1 PC_DIGNOSTIKA AND OPERATING SYSTEM.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of SESSION1 PC_DIGNOSTIKA AND OPERATING SYSTEM"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2e6a4fee6481bab1",
+  "lastOpenFiles": [
+    "SESSION1 PC_DIAGNOSTIKA AND OPERATING SYSTEMS.md",
+    "SESSION2_HESLA_LOGY_NETWORKING.md"
+  ]
+}

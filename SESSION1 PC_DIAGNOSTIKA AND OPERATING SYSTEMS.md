@@ -490,6 +490,9 @@ Operačný systém počítača sa skladá z troch základných častí:
 
 ### 1.2 WIN10 s  integraciou WSL2 (Windows Subsystem for Linux)
 
+wsl --install
+
+
 ### 1.3 PODIEL NA TRHU PC
 WIN10 74% trhoveho podielu PC
 MacOS cca 17% ostatne LINUX a pod
@@ -589,3 +592,66 @@ Get-LocalGroupMember Users
 Add-LocalGroupMember -Group Users -Member "test"
 ```
 
+
+### 2.3 PRISTUP K SUBOROM
+
+``` sql
+d - directory
+r - read
+w - write
+x - execute
+
+(USER GROUP OTHERS)  = ugo
+```
+
+``` bash
+chown jozo SUBOR
+chgrp GROUP SUBOR
+
+
+chmod u+w SUBOR
+
+chmod 777 SUBOR  # daj vsetko vsetkym
+```
+
+
+``` powershell
+takeown /F '.\archive (1).csv'
+$Acl = Get-Acl "FILE"  # premenna s pristupmi
+$Ar = New-Object  System.Security.AccessControl.FileSystemAccessRule("forti","FullControl","Allow")
+$Acl.SetOwner([System.Security.Principal.NTAccount]"forti")
+$Acl.SetAccessRule($Ar)
+Set-Acl "FILE" $Acl
+
+```
+
+## SILNÝ NÁSTROJ PRE NASTAVOVANIE SKUPINOVÝCH PRAVIDIEL VO WIN11
+
+powershell WIN PRO 
+``` powershell
+gpedit.msc
+```
+
+## CVICENIE 1
+
+DIAGNOSTIKA PC>
+
+```powershell
+# PC
+Get-ComputerInfo
+# CPU
+Get-WmiObject -Query "SELECT * FROM Win32_Processor"
+# Pamat
+`Get-WmiObject -Class Win32_OperatingSystem | Select-Object TotalVisibleMemorySize, FreePhysicalMemory`
+
+`Get-WmiObject -Class Win32_PhysicalMemory`
+
+# DISK
+`Get-PSDrive -PSProvider FileSystem | Select-Object Name, Used, Free, @{Name="Used(GB)";Expression={[math]::round($_.Used / 1GB, 2)}}, @{Name="Free(GB)";Expression={[math]::round($_.Free / 1GB, 2)}}`
+
+`Get-WmiObject -Class Win32_LogicalDisk -Filter "DeviceID='C:'"`
+```
+
+# POKRAČUJEME ...
+
+[[SESSION2_HESLA_LOGY_NETWORKING]]
