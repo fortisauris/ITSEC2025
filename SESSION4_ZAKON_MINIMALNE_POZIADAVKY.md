@@ -329,7 +329,6 @@ a všetky spojenia sú povoľované na princípe zásady najnižších privilég
 - **Malé firmy/tímy:** **PrivacyIDEA** alebo **Duo Free**.
 - **Self-hostované VPN/SSH:** **OpenVPN + pam_google_authenticator** alebo **WireGuard + TOTP**.
 
-
 #### C.5. ZABLOKOVANÉ PORTY S PRESNE SPECIFIKOVANYM PRISTUPOM IS
 {tým, že sieťam alebo informačným systémom sú umožnené len špecifikované služby
 umiestnené vo vyhradených segmentoch siete počítačovej siete,}
@@ -352,3 +351,194 @@ Okrem IDS je dolezite mat k dispozicii aj dalsie udaje, ktore mozu smerovat k od
 #### C.10. BLOKOVANIE SPOJENIA ZO ZNAMYCH ADRIES
 Tuto funkciu nam zabezpeci Dynamicky Firewall na vstupe do siete.
 [[SESSION4-ITSEC40_NETWORK_DEVICES]]
+
+#### C.11. SPOJENIE APLIKACII MEDZI SEBOU IBA CEZ POVOLENE PORTY
+Nastavenie Firewallov na Endpointoch a Serveroch... vsetko ostatne zakazat ak sa da :)
+Vid ukazku komunikacie PC vo Wiresharku vystupny port si voli pocitac !
+[[SESSION3_NETWORK_LAYERS_AND_PROTOCOLS-ITSEC40]]
+
+
+#### C.12. DPI A ZAZNAM PACKETOV NA VSTUPE DO SIETE
+DEEP PACKET INSPECTION JE VACSINOU FUNKCIA SECURITY APPLIANCE - Funkcia Firewallu alebo SUPERSWITCHA 
+[[SESSION4-ITSEC40_NETWORK_DEVICES]]
+
+### C.13. IDS A IPS  INTRUSION DETECTION SYSTEM A INTRUSION PREVENSION SYSTEM
+[[SESSION5-INTRUSION DETECTION SYSTEM]]
+suricata, snort 
+
+#### C.14. NA VYSTUPE FILTROVANIE PACKETOV
+Pri IT bezpecnosti je dolezite nielen byt obozretny smerom do siete ale aj zo siete ! 
+Pokusy o EXFILtraciu chranenych dokumentov a udajov mozu mat na svedomi nielen nezodpovedni uzivatelia, ale aj reverzne shelly, SPYWARE alebo MALWARE. 
+<li>Kos na spinave pradlo</li>
+
+#### C.15. 2FA na kazdy vzdialeny ADMIN pristup do siete  SSH, Admin konzoly
+Je nebezpecne pri vzdialeno pristupe pouzivat admin hesla chranenej LAN. Vzdialeny pristup cez RDP alebo VPN treba obmedzit !!!
+
+#### C.16 SCAN VULNERABILITIES
+
+netlas, shodan, nmap, nessus, burp suite - webapp a webove servery
+vykonávaním pravidelného alebo nepretržitého posudzovania technických zraniteľností, najmä
+identifikácie možnej prítomnosti škodlivého kódu zariadenia, ktoré sa vzdialene pripája do
+internej siete, alebo zmluvného zaručenia vrátane preukázania plnenia tejto povinnosti.
+
+#### ZERO TRUST - UZIVATEL MA PRISTUP LEN K PRESNE DEFINOVANYM ZDROJOM - KAZDA SIETOVA AKTIVITA JE PODOZRIVA A SKUMANA 
+
+
+
+## D. FYZICKA BEZPECNOST
+
+1. UMIESTNENIE SIETE - BEZPECNOSTNE ZAMKY A MANAZMENT KLUCOV A PRISTUPU
+2. PRAVIDLA PRACE - ZONIFIKACIA PRACOVISKA, ODDELENIE SUKROMIA A PRACE
+3. DODRZIAVANIE UCELU IT - ZARIADENIA SA NESMU POUZIVAT NA INE VECI
+4. UPS  - ZALOZNE ZDROJE NA SIET A SERVERY
+5. EVIDENCIA A OZNACENIE PROSTRIEDKOV - 
+6. VYMAZAVAVIE A LIKVIDACIA PROSTRIEDKOV - #DUMPSTERDIVING
+7. FYZICKY PRENOS MIMO PRIESTOROV - PRAVIDLA
+8. MANIPULACIA S DOKUMENTACIOU A PAMATOVYMI MEDIAMI - USKLADNENIE/LIKVIDACIA
+
+?? dimenzovanie a fyzické parametre sietí a hardvéru, ktoré priamo alebo nepriamo ovplyvňujú
+najväčšiu prípustnú dobu výpadku siete a informačného systému ??  ZALOZNA INFRASTRUKTURA - UPS, Nahradne servery
+
+## E. PLANOVANIE REAKCIE
+### E.1 PLANOVANIE A KRIZOVE PLANY
+
+<li>krizove plany na najpravdepodobnejsie scenare</li> 
+<li>reakcne doby</li> 
+
+### E. 2 ZDROJE  A FINANCIE
+<li>krizove plany na najpravdepodobnejsie scenare</li> 
+
+### E.3 KOMUNIKACNY PLAN
+<li>zvolavanie a pohotovost</li>
+<li>komunikacne prostriedky a kanaly</li>
+<li>externa pomoc</li>
+<li>nahlasovanie incidentov</li> 
+
+### E.5 CASOVY HARMONOGRAM NA OBNOVU FUNGOVANIA NA MINIMALNU FUNKCNOST
+<li>obnovenie v krizovej minimalnej prevadzke s monitorovanim v HODINACH</li>
+
+### E.6 CASOVY HARMONOGRAM NA OBNOVU A FUNGOVANIE NA NORMAL
+<li>obnovenie v krizovej plnej prevadzke s monitorovanim v HODINACH</li> 
+
+### E.7 TESTOVANIA A VYHODNOCOVANIA PLANOV OBNOVY S CIELOM VACSEJ EFEKTIVITY
+<li>Vyhodnotenie INCIDENTU, FUNKCNOST PLANOV, CHYB A MOZNEHO ZLEPSENIA - CENA</li> 
+
+## F. BACKUPY A DOKUMENTACIA
+
+### F.1 V PRAVIDLACH
+a) frekvenciu a rozsah jej dokumentovania a schvaľovania,
+b) určenie osoby zodpovednej za zálohovanie, BACKUP MANAGER :)
+c) časový interval, identifikáciu rozsahu údajov, dátového média zálohovania a požiadavku
+zabezpečenia vedenia dokumentácie o zálohovaní,
+d) požiadavku umiestnenia záloh v zabezpečenom prostredí s riadeným prístupom,
+e) požiadavku zabezpečenia šifrovania záloh obsahujúcich aktíva klasifikačného stupňa chránené
+a prísne chránené,
+f) požiadavku na vykonávanie pravidelného preverenia záloh, testovanie obnovy záloh
+a precvičovanie zavedených krízových plánov najmenej raz ročne
+
+### F.2 OPTIMALNY MODEL OSOBNEHO ZALOHOVANIA:
+
+3 kopie v roznych lokalitach  USB
+2 na roznych mediach
+1 kopia na Cloude (ZASIFROVANA) *  mimo lokacie
+
+* podla internych predpisov a charakteru informacii v IS
+
+### F.3 SYSTEM RYCHLEJ OBNOVY POMOCOU REPLIK A SNAPSHOTOV
+
+[[SESSION5 - SYSTEM RYCHLEJ OBNOVY]]
+
+## A. ANTIVIRUSOVY PROGRAM NA ENDPOINT AJ SERVER
+
+>[!warning] ## AK SI SERIF ZASTUPCU SI VYBERAJ OPATRNE !
+
+
+
+Vzdy ked instalujes softver zvazuj aj hodnovernost jeho poskytovatela. Specialne pri AV davas pristup k svojim suborom na vyhladavanie a skumanie. 
+
+ESET - SLOVACI
+SOPHOS - Vyvojari v Linzi, Anglicka spolocnost s backgroundom v Cybersecurity
+COMODO Internet Security - 
+ClamAV - Open SOurce  CISCO - ZADARMO !!!
+
+
+> [!info] SIGNATURE - Digitalny otlacok palca skodliveho virusu alebo malware. Hexadecimalny kod, ktory sa opakuje pri infikovanych pocitacoch.
+
+DATABAZA VSETKYCH ZNAMYCH VIRUSOV A MALWARE S MOZNOSTOU SKUMANIA A VYHLADAVANIA
+[VirusTotal - Home](https://www.virustotal.com/gui/home/search)
+
+
+### A.1 Instalacia na Windows:
+
+[ClamAVNet](https://www.clamav.net/)
+
+Po nainštalovani inštalátorom sa umiestni do adresára:
+
+``` powershell
+C:\Program Files\ClamAV
+```
+
+### A.2 Konfigurácia na Windows
+
+Prednastavené konfiguračné súbory pre freshclam.exe a clamd.exe sú a adresári
+
+``` powershell
+C:\Program Files\ClamAV\conf_examples
+```
+
+>[!warning]
+>Nezabudni v konfiguračných súboroch odstrániť slovko EXAMPLE !!!
+
+
+### A.3 Instalacia na Linux
+
+``` bash
+sudo apt-get update
+sudo apt-get install clamav clamav-daemon
+```
+
+>[!info]
+>Na Linuxe sú konfiguračné súbory funkčné ale nezabudni si ich skontrolovať.
+
+### A.4 Časti CLAM AV
+
+freshclam  - zabezpečuje update signatur   cca 8.7mil signatur
+
+clamscan  - jednorazovy scan   
+
+>[!warning ] ČO SKENOVAŤ !!! 
+PRIORITA   - executables a nebezpecne formaty
+VOLITELNÝ je zbytok súborov 
+
+clamd  - demon s automatizaciou a množstvom nastavení ako a kedy
+
+clamdtop - dashboard v konzole, ktorý ukazuje prácu antivírusu v reálnom čase
+
+sigtool - pridavanie vlastnych signatur
+
+
+A.5  UMELÁ INTELIGENCIA V SLUŽBÁCH IT SEC
+Microsoft predstavil Microsoft SECURITY COPILOT, umelú inteligenciu, ktorá sa bude starať o bezpečnosť Vašich sietí a počítačov.
+
+## B. PASCE NA HACKEROV - HONEY POTY:
+
+Naša doterajšia práca sa zameriavala na to aby sme čo najskôr zistili kybernetický útok na našej sieti.
+
+<li>Máme všade SILNÉ HESLÁ</li>
+<li>Máme na všetkých zariadeniach posledné UPDATY A PATCHE</li>
+<li>Máme na každom počítači Antivírus</li>
+<li>Máme na každom počítači individuálne nastavený Firewall</li>
+<li>Na vstupe do každého segmentu máme Dynamický Firewall s DPI</li>
+<li>Dôležité miesta v sieti nám stráži Suricata IDS</li>
+<li>Máme zoskenované všetky zraniteľnosti každej subsiete</li>
+<li>Všetky logy sa ukladajú zašifrovaných spojením na špeciálny server LOG MANAGEMENT</li>
+
+Ako ešte môžeme zvýšiť ochranu našej siete ?
+
+### B.1. BIELE ZOZNAMY - WHITELIST
+
+Biele zoznamy sú nastavenia na sieťových zariadeniach, ktoré umožňujú komunikáciu iba zariadeniam, ktoré sú uvedené v týchto BIELYCH ZOZNAMOCH. Akonáhle sa do siete prihlási nové zariadenie nikto sa s ním nebude baviť.
+
+>[!warning  ]
+>HACKER: Počítače a zariadenia vo WHITELIST identifikujeme podľa IP, ktorá sa môže zmeniť alebo podľa MAC adresy. Túto však vieme tiež zmeniť pomocou Macchanger v KALI LINUXE. Router sa potom bude musieť rozhodovať medzi nami = trošku mu zamotáme hlavu.
+
