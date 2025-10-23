@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SESSION4_ZAKON_MINIMALNE_POZIADAVKY.md",
+                "file": "SESSION6 HONEYPOTS plus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SESSION4_ZAKON_MINIMALNE_POZIADAVKY"
+              "title": "SESSION6 HONEYPOTS plus"
             }
           }
         ]
@@ -169,10 +169,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "2e6a4fee6481bab1",
+  "active": "0620ef17ebdd65cb",
   "lastOpenFiles": [
-    "SPECIAL/SESSION5-LOG MANAGEMENT.md",
+    "static/BEEF.png",
     "SESSION4_ZAKON_MINIMALNE_POZIADAVKY.md",
+    "SESSION6 HONEYPOTS plus.md",
+    "SPECIAL/SESSION5-LOG MANAGEMENT.md",
     "SPECIAL/SESSION5-INTRUSION DETECTION SYSTEM.md",
     "SESSION3_NETWORK_DEVICES_VPN_WIFI.md",
     "SESSION1 PC_DIAGNOSTIKA AND OPERATING SYSTEMS.md",
