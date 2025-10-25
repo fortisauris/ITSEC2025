@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SESSION6 HONEYPOTS plus.md",
+                "file": "tools/SESSION7_Aircrack-ng a wifite2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SESSION6 HONEYPOTS plus"
+              "title": "SESSION7_Aircrack-ng a wifite2"
             }
           }
         ]
@@ -169,19 +169,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "0620ef17ebdd65cb",
+  "active": "2e6a4fee6481bab1",
   "lastOpenFiles": [
-    "static/BEEF.png",
+    "SESSION7_HACKER_WIFI_METASPLOIT.md",
+    "tools/SESSION7_Aircrack-ng a wifite2.md",
     "SESSION4_ZAKON_MINIMALNE_POZIADAVKY.md",
     "SESSION6 HONEYPOTS plus.md",
+    "README.md",
+    "SESSION1 PC_DIAGNOSTIKA AND OPERATING SYSTEMS.md",
+    "SPECIAL/FORTIGATE NASTAVENIE VPN.md",
+    "tools",
+    "static/BEEF.png",
     "SPECIAL/SESSION5-LOG MANAGEMENT.md",
     "SPECIAL/SESSION5-INTRUSION DETECTION SYSTEM.md",
     "SESSION3_NETWORK_DEVICES_VPN_WIFI.md",
-    "SESSION1 PC_DIAGNOSTIKA AND OPERATING SYSTEMS.md",
     "static/NEXT.md",
     "static/SERVER.jpg",
     "static/DynamicFirewall.png",
-    "SPECIAL/FORTIGATE NASTAVENIE VPN.md",
     "SESSION4 INTRUSION DETECTION SYSTEM.md",
     "SPECIAL",
     "SESSION2_HESLA_LOGY_NETWORKING.md",

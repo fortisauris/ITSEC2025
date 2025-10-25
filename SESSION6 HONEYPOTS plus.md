@@ -315,3 +315,4 @@ Sledovanie jeho komunikacie pomocou IDS - CUSTOM SIGNATURE
 4.  REINSTALACIA - Admin pristup, Manipulacia so systemovymi subormi, Backdoor, nestabilita, Pochybnosti
 
 5. ANALYZA UCINNOSTI A PLANU
+
