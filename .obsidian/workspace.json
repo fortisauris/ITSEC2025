@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/SESSION7_Aircrack-ng a wifite2.md",
+                "file": "SESSION8_KRYPTOGRAFIA_INCIDENT_RESPONSE_FORENSIC_REVERSE_ENG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SESSION7_Aircrack-ng a wifite2"
+              "title": "SESSION8_KRYPTOGRAFIA_INCIDENT_RESPONSE_FORENSIC_REVERSE_ENG"
             }
           }
         ]
@@ -172,23 +172,31 @@
   "active": "2e6a4fee6481bab1",
   "lastOpenFiles": [
     "SESSION7_HACKER_WIFI_METASPLOIT.md",
-    "tools/SESSION7_Aircrack-ng a wifite2.md",
+    "SESSION6_HONEYPOTS_XSS_BACKDOOR_REVERSE_SHELLS_CTF.md",
     "SESSION4_ZAKON_MINIMALNE_POZIADAVKY.md",
-    "SESSION6 HONEYPOTS plus.md",
-    "README.md",
-    "SESSION1 PC_DIAGNOSTIKA AND OPERATING SYSTEMS.md",
+    "SESSION3_NETWORK_DEVICES_VPN_WIFI.md",
+    "SESSION2_HESLA_LOGY_NETWORKING.md",
+    "SESSION1_PC_DIAGNOSTIKA_A_OPERATING SYSTEMS.md",
+    "SPECIAL/PROXMOX_CLUSTER.md",
+    "tools/S8C_ZRANITELNOSTI_IOT.md",
+    "tools/S8B_WAZUH_SIEM_SECURITY_INFORMATION_AND_EVENT_MANAGEMENT.md",
+    "tools/S5D_GIT_VERSION_CONTROL.md",
+    "tools/S5C _SYSTEM_RYCHLEJ_OBNOVY_TRUENAS.md",
+    "SPECIAL/RDP_WINDOWS_REMOTE_DESKTOP.md",
+    "tools/S7A_Aircrack-ng a wifite2.md",
+    "tools/S5B_LOG_MANAGEMENT_SYSTEM.md",
+    "tools/S5A_INTRUSION_DETECTION_SYSTEM.md",
     "SPECIAL/FORTIGATE NASTAVENIE VPN.md",
+    "tools/S8A_MEMORY_DUMP_Z_VirtualBoxVM.md",
+    "SESSION8_KRYPTOGRAFIA_INCIDENT_RESPONSE_FORENSIC_REVERSE_ENG.md",
+    "static/NEXT.md",
+    "README.md",
     "tools",
     "static/BEEF.png",
-    "SPECIAL/SESSION5-LOG MANAGEMENT.md",
-    "SPECIAL/SESSION5-INTRUSION DETECTION SYSTEM.md",
-    "SESSION3_NETWORK_DEVICES_VPN_WIFI.md",
-    "static/NEXT.md",
     "static/SERVER.jpg",
     "static/DynamicFirewall.png",
     "SESSION4 INTRUSION DETECTION SYSTEM.md",
     "SPECIAL",
-    "SESSION2_HESLA_LOGY_NETWORKING.md",
     "static/LAN.png",
     "static/MITM.png",
     "static/LANwDMZ.png",

@@ -99,7 +99,7 @@ c. Dezinfekcia a reinstalacia
 
 RASPBERRY PI CONNECT
 
-[[SESSION7_Aircrack-ng a wifite2]]
+[[S7A_Aircrack-ng a wifite2]]
 
 # B. EXPLOITAČNÉ A C2 FRAMEWORKY
 ## B1. METASPLOIT FRAMEWORK- UKÁŽKA 
@@ -167,32 +167,3 @@ use SESSION_ID
 ```
 
 
-## C. KRYPTOGRAFIA
-
-### C.1 Historické šifry
-a.  Scytale 
-b. Cézarova šifra a ROT13
-c. Albertiho Sifrovaci disk 
-Nihilist
-
-#### C.2 Vernamova šifra (OTP)
-
-342154 KLUC
-181267 SPRAVA
-423311 ZASIFROVANA POMOCOU OPERACIE ADD
-
-423311 ZASIFROVANA
-342154 KLUC
-181267 ODSIFROVANA POMOCOU OPERACIE SUB
-
-
-OTP cipher - One Time Pad
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-### C.3 ENIGMA - ELEKTROMECHANICKY SIFROVACI STROJ
-
-
-Enigma bola elektromechanický šifrovací stroj používaný na šifrovanie komunikácie medzi jednotkami Nacistického Nemecka. Problémom boli predovšetkým útoky nemeckých ponoriek v Atlantiku. 
-
-Alan Turing a tým jeho kryptoanalytikov v Bletchley Park,  postavil prvý počítač, ktorý dokázal túto šifru prelomiť a čítať tieto správy. Operácia ULTRA bola prísne utajená.

@@ -32,7 +32,7 @@ Remove-Item -Path $folderPath -Recurse -Force`
 
 
 ## 3. OCHRANA HESLOM 2FA, BIOMETRIA, FIDO KEY
-
+#pwd
 3.1 Silne a zapamatatelne heslo:
 ``` sql
 K@5d1_8tvrtoK_HLADAM_p@pucE
@@ -59,7 +59,7 @@ Vacsina uniknutych hesiel pochadza z kradezi u velkych poskytovatelov sluzieb ak
 
 
 ### 3.4 BRUTEFORCE, SLOVNIKOVY UTOK, RAINBOW TABLES
-
+#cracking
 > [! info]
 > Naco vylamovat zamky ked mate od chaty kluc ?
 
@@ -154,7 +154,7 @@ BIOMETRIA : )
 
 
 ## 4. LOGOVANIE
-
+#logs
 Windows Log je pristupny cez eventViewer alebo cez Powershell:
 
 ``` powershell
@@ -294,7 +294,7 @@ RUBBER DUCKY ZA 5EUR
 [GitHub - dbisu/pico-ducky: Create a USB Rubber Ducky like device using a Raspberry PI Pico](https://github.com/dbisu/pico-ducky)
 
 ### 6.2 AUTOMOUNT - AUTORUN - SLUZBA ALEBO PREKLIATIE
-
+#mount
 ``` linux
 sudo fdisk -l
 mkdir USB_KLUC
@@ -305,7 +305,7 @@ umount USB_KLUC
 
 
 # SIETE A VZNIK A TOPOGRAFIA SIETE
-
+#lan
 MODEM - Modulator-Demodulator BBS Bulletin Board System (TELEFÓNNA SIEŤ)
 WAN - WIDE AREA NETWORK. {SAGE-RADARY US AIR FORCE, ARPANET IP adresy}
 LAN - Local Area Network (Novell, Token Ring, Ethernet, MESH)
@@ -317,7 +317,7 @@ HVIEZDA
 TOOLBOX:
 
 # OPEN SYSTEM INTERCONECTION MODEL (OSI)
-
+#osi
 ### 1. FYZICKÁ VRSTVA
 Káble podľa tienenie
 
@@ -940,4 +940,5 @@ Intranet, databazove servery, pocitace obsahujuce citlive data.
 8.3 DMZ - demilitarizovana zona - miesto kde su umiestnene servery volne pristupne z internetu
 
 
- 
+ #### POKRACUJEME
+ [[SESSION3_NETWORK_DEVICES_VPN_WIFI]]

@@ -1,6 +1,6 @@
 
 ## 1. ROUTERS
-
+#netdevices
 Typicky je ROUTER zariadenie prideľujúce IP adresy a preto je na 3 sieťovej vrstve
 
 Pokiaľ riešime malú sieť SOHO (SMALL OFFICE \ HOME OFFICE) približne do 10 zariadení tak si vystačíme s obyčajným routrom s WiFi alebo bez. 
@@ -51,8 +51,14 @@ V našich zemepisných šírkach máme k dispozícií Firewall vyvíjaný ako OP
 
 
  ![ Dynamic Firewall](DynamicFirewall.png)
- ## 4. VPN (VIRTUAL PRIVATE NETWORK)
 
+Turris Omnia
+Zywall
+SonicWall
+pfSense
+ 
+ ## 4. VPN (VIRTUAL PRIVATE NETWORK)
+#vpn
 Najpoužívanejším softvérovým riešením pripojenia cez VPN do a z našej lokálnej siete je OpenVPN. Budeme potrebovať. Ide o vytvorenie tunela IPSEC do lvzdialenej LAN.
 
 4.1 ABY NAS INTERNET POZNAL >
@@ -73,7 +79,7 @@ POZOR OpenVPN aj napriek tomu, že rieši bezpečnosť prenosu nesie so sebou mn
 
 [[FORTIGATE NASTAVENIE VPN]]
 
-##### **4.3 ALTERNATIVA
+##### **4.3 BEZPECNA ALTERNATIVA K VPN
 
 ZERO CONFIG VPN - TAILSCALE, ZEROTIER
 
@@ -101,7 +107,7 @@ ZERO TRUST RIESENIE - TWINGATE
 
 
 ## 5. KVM SWITCH
-
+#kvm
 Keyboard Video Mouse - zariadenie pre ovládanie väčšieho počtu Headless Serverov cez jednu klávesnicu, myš a displej.
 
 KVM over Ethernet
@@ -133,7 +139,7 @@ IPMI, iDRAC, ILO systém na diaľkový manažment a monitorovanie prevádzky.
 
 
 ### **7. WIFI Wireless 802.11x
-
+#wifi
 #### 7.1 FREKVENCIE A POCET KANALOV
 2.4GHz a 5 GHz
 
@@ -213,4 +219,5 @@ CHAP (Challenge-Handshake Authentication Protocol) a PAP (Password Authenticatio
 - **Hardware:** **Raspberry Pi** (€50–€100) alebo staré PC.
 - Návody:** [FreeRADIUS Official Docs](https://freeradius.org/), [DigitalOcean Guide](https://www.digitalocean.com/community/tutorials/how-to-setup-a-freeradius-server-on-ubuntu-20-04)
 
-
+POKRACUJEME
+[[SESSION4_ZAKON_MINIMALNE_POZIADAVKY]]

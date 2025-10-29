@@ -11,6 +11,7 @@ FORTIS AURIS o.z.
 
 	Našim hlavným cieľom je vychovať novú generáciu hackerov s úctou k ľudským právam a životu. Naše aktivity zahŕňajú aj verejnú komunikáciu cez GitHub, kde zdieľame vzdelávacie materiály a projekty. 
 
+[[fortisauris@gmail.com]]
 ### Princípy kurzu:
 
 Tento kurz vychádza z prípravných materiálov na certifikácie CompTIA A+, COmpTIA Networking, CompTIA Security a +casto sa budeme odvolávať tiež na ISO27001 
@@ -273,7 +274,7 @@ confirm-SecureBootUEFI
 UEFI (Unified Extensible Firmware Interface) is a firmware interface that is used to boot up a computer system. [It is the successor to BIOS (Basic Input/Output System) and is designed to be more flexible and secure than BIOS](https://www.howtogeek.com/56958/HTG-EXPLAINS-HOW-UEFI-WILL-REPLACE-THE-BIOS/)[1](https://www.howtogeek.com/56958/HTG-EXPLAINS-HOW-UEFI-WILL-REPLACE-THE-BIOS/). [UEFI supports larger hard drives, faster boot times, more security features, and—conveniently—graphics and mouse cursors](https://en.wikipedia.org/wiki/UEFI)[2](https://en.wikipedia.org/wiki/UEFI). [The UEFI specification defines a protocol known as Secure Boot, which can secure the boot process by preventing the loading of UEFI drivers or OS boot loaders that are not signed with an acceptable digital signature](https://en.wikipedia.org/wiki/UEFI)
 
 #### 1.3.5 SYSTÉM SÚBOROV = FILESYSTEM
-
+#fs
 #### Adresáre a súbory
 
 Vytvorenie prazdneho adresara a suboru v Linuxe
@@ -342,7 +343,7 @@ Väčšina PC sa pri bootovaní synchronizacia s NTP  / sieťový čas
 
 
 #### 1.4.2 TPM 2.0 Trusted Platform 
-
+#tpm
 Počítač v počítači, ktorý zabezpečuje uloženie kryptografických kĺúčov a certifikátov a jednoduchých kryptografických funkcií. 
 
 Win I >apps> Optional features > TPM Diagnostics
@@ -356,7 +357,7 @@ tpm.msc
 
 
 ## 1.5 Rozsirena diagnostika systemu Windows
-
+#diagnostika
 WIN GUI reliability monitor
 power
 
@@ -404,7 +405,7 @@ sensors
 
 
 ## 1.7 Python - Svajciarsky nozik kazdeho hackera
-
+#programming
 Python pomáha automatizovať úlohy, pochopiť koncepty šifrovania, ochrany, vytvárať jednoduché servery a aplikácie. 
 
 Demonštrácia hashovacie algoritmu pomocou python3
@@ -452,7 +453,7 @@ if __name__ == '__main__':  # toto je finta ktora nam spusti kod iba ked je skri
 
 
 ## 1.8 Intel VTx a podpora virtualizácie počítačov
-
+#virtualizacia
 ### 1.8.1 Hypervisor
 
 program, ktorý nám umožňuje rozdeliť výkonný počítač na viacero menších počítačov s vlastným OS, diskom, RAM aj určeným počtom procesorom. Potrebujeme:
@@ -490,7 +491,11 @@ Operačný systém počítača sa skladá z troch základných častí:
 
 ### 1.2 WIN10 s  integraciou WSL2 (Windows Subsystem for Linux)
 
+``` powershell
 wsl --install
+
+```
+
 
 
 ### 1.3 PODIEL NA TRHU PC
@@ -511,7 +516,7 @@ SERVERY viac ako 80% su LINUX
 [! war]
 
 ## 2. PATCHE A UPDATE PRE SOFTVER A HARDVER
-
+#update
 ### 2.1 FAKTY:
 1. Neupdatovany a nezapatchovany pocitac je plny bezpecnostnych dier CAS BEZI
 2. Tisice developerov pracuju na stabilite a bezpecnosti systemov KAZDY DEN
@@ -541,7 +546,7 @@ WIN10 najnapadanejsia platforma  - uzavrety system, tlak developerov a hackerov
 
 
 ## 2. UZIVATELIA A ICH PRISTUPOVE PRAVA
-
+#permissions
 >[!warning]
 >ROOT je absolutny vladca pocitaca - !!! POZOR nikomu inemu nedavaj root pristup
 >SUDO je zemepan - v skupine sudo moze byt viac uzivatelov, ktori mozu administrovat system

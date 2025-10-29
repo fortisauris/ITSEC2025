@@ -2,7 +2,8 @@
 
 ### **ZÁKON_KOMPETENCIA_CSIRT_MINIMUM**
 
----
+
+#zakon #vyhlaska
 
 
 1. ZAKON: 
@@ -335,7 +336,7 @@ umiestnené vo vyhradených segmentoch siete počítačovej siete,}
 [[SESSION3_NETWORK_LAYERS_AND_PROTOCOLS-ITSEC40]]
 
 #### C.6. PRIPOJENIE NA EXTERNU SIET IBA CEZ DYNAMICKY FIREWALL A IDS  INTRUSION DETECTION SYSTEM / IPS 
-[[SESSION5-INTRUSION DETECTION SYSTEM]]
+[[S5A_INTRUSION_DETECTION_SYSTEM]]
 
 
 #### C.7. PRIPOJENIE SERVEROV NA EXTERNU SIET Z DMZ PODLA ODPORUCANI VYROBCOV -- PRODUKCIA, 
@@ -346,7 +347,7 @@ DOKUMENTACIA  - PRAVIDELNE KONTROLOVAT
 
 #### C.9. MONITOROVANIE POKUSOV O VNIKNUTIE DO SIETE  - LOGOVANIE A ANALYZOVANIE
 Okrem IDS je dolezite mat k dispozicii aj dalsie udaje, ktore mozu smerovat k odhaleniu a zachyteniu zacinajuceho alebo prebiehajuceho utoku
-[[SESSION5-LOG MANAGEMENT]]
+[[S5B_LOG_MANAGEMENT_SYSTEM]]
 
 #### C.10. BLOKOVANIE SPOJENIA ZO ZNAMYCH ADRIES
 Tuto funkciu nam zabezpeci Dynamicky Firewall na vstupe do siete.
@@ -363,7 +364,7 @@ DEEP PACKET INSPECTION JE VACSINOU FUNKCIA SECURITY APPLIANCE - Funkcia Firewall
 [[SESSION4-ITSEC40_NETWORK_DEVICES]]
 
 ### C.13. IDS A IPS  INTRUSION DETECTION SYSTEM A INTRUSION PREVENSION SYSTEM
-[[SESSION5-INTRUSION DETECTION SYSTEM]]
+[[S5A_INTRUSION_DETECTION_SYSTEM]]
 suricata, snort 
 
 #### C.14. NA VYSTUPE FILTROVANIE PACKETOV
@@ -446,10 +447,11 @@ a precvičovanie zavedených krízových plánov najmenej raz ročne
 
 ### F.3 SYSTEM RYCHLEJ OBNOVY POMOCOU REPLIK A SNAPSHOTOV
 
-[[SESSION5 - SYSTEM RYCHLEJ OBNOVY]]
+[[S5C _SYSTEM_RYCHLEJ_OBNOVY_TRUENAS]]
 
 ## A. ANTIVIRUSOVY PROGRAM NA ENDPOINT AJ SERVER
 
+#antivirus
 >[!warning] ## AK SI SERIF ZASTUPCU SI VYBERAJ OPATRNE !
 
 
@@ -542,3 +544,5 @@ Biele zoznamy sú nastavenia na sieťových zariadeniach, ktoré umožňujú kom
 >[!warning  ]
 >HACKER: Počítače a zariadenia vo WHITELIST identifikujeme podľa IP, ktorá sa môže zmeniť alebo podľa MAC adresy. Túto však vieme tiež zmeniť pomocou Macchanger v KALI LINUXE. Router sa potom bude musieť rozhodovať medzi nami = trošku mu zamotáme hlavu.
 
+POKRACUJEME
+[[SESSION6_HONEYPOTS_XSS_BACKDOOR_REVERSE_SHELLS_CTF]]
